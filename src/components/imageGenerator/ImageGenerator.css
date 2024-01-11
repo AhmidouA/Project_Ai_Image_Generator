@@ -18,8 +18,19 @@
 .search-input::placeholder {
   color: #999;
 }
+
 .generate-btn {
   cursor: pointer;
+}
+
+.loading-bar {
+  width:0rem;
+  height:0.5rem;
+  background-color: #7611a6;
+}
+
+.loading-text {
+  font-size: 1.1rem;
 }
 
 .loading-bar-full {

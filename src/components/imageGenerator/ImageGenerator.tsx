@@ -72,20 +72,10 @@ const ImageGenerator = () => {
             style={{ minWidth: "10rem", maxWidth: "35rem" }}
           />
         </Box>
-        <Box className="loading">
-          <Box
-            className={loading ? "loading-bar-full" : ""}
-            width="0rem"
-            height="0.5rem"
-            bgcolor="#7611a6"
-          ></Box>
-          <Box
-            className={loading ? "loading-text" : "display-none"}
-            fontSize="1.1rem"
-          >
-            Loading....
-          </Box>
-        </Box>
+        <div className="loading">
+          <div className={loading ? "loading-bar-full" : "loading-bar"}></div>
+          <div className={loading ? "loading-text" : "display-none"}>Loading....</div>
+        </div>
       </Box>
       <Box
         className="search-box"
